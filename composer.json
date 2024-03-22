@@ -1,0 +1,20 @@
+{
+  "name": "zhiwei/aliyun-afs-captcha",
+  "description": "阿里云滑动验证码",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "志伟",
+      "email": "1551685913@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Aliyuncaptcha\\": "src/"
+    }
+  }
+}
