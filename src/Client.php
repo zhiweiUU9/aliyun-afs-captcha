@@ -2,8 +2,9 @@
 
 namespace Aliyuncaptcha;
 
+use afs\Request\V20180112\AuthenticateSigRequest;
+
 require_once __DIR__ . '/../core/aliyun-php-sdk-core/Config.php';
-require_once __DIR__ . '/../core/aliyun-php-sdk-afs/afs/Request/V20180112/AuthenticateSigRequest.php';
 
 class Client
 {
